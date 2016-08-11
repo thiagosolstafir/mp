@@ -1,0 +1,232 @@
+#bt_menu {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 9px 0 0 15px;
+    cursor: pointer;
+    display: none;
+    font-size: 3px;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+#bt_menu span {
+    display: block;
+    background: #fff;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    backface-visibility: hidden;
+    height: 0.8em;
+    position: absolute;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#bt_menu span {
+    left: 0;
+}
+
+#bt_menu span:nth-child(1) {
+    top: 7px;
+}
+
+#bt_menu span:nth-child(2) {
+    top: 15px;
+}
+
+#bt_menu span:nth-child(3) {
+    top: 23px;
+}
+
+#bt_menu.open span:nth-child(1) {
+    -moz-transform: rotate(40deg) translate(1.1em, 1.1em);
+    -ms-transform: rotate(40deg) translate(1.1em, 1.1em);
+    -webkit-transform: rotate(40deg) translate(1.1em, 1.1em);
+    transform: rotate(40deg) translate(1.1em, 1.1em);
+    background: #fff;
+    top: 10px;
+    left: -1px;
+}
+
+#bt_menu.open span:nth-child(2) {
+    opacity: 0;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+#bt_menu.open span:nth-child(3) {
+    -moz-transform: rotate(-40deg) translate(1.1em, -1.1em);
+    -ms-transform: rotate(-40deg) translate(1.1em, -1.1em);
+    -webkit-transform: rotate(-40deg) translate(1.1em, -1.1em);
+    transform: rotate(-40deg) translate(1.1em, -1.1em);
+    background: #fff;
+    top: 19px;
+    left: -1px;
+}
+
+#bt_menu:hover span,
+#bt_menu:focus span,
+#bt_menu.ativo span {
+    background: #fff;
+}
+
+#top_mobile {
+    width: 100%;
+    height: 50px !important;
+    float: left;
+    margin: 0;
+    z-index: 1500;
+    position: fixed;
+    padding: 0 0 0 0;
+    display: none;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#menu_mobile .logo-mobile {
+    padding: 10px;
+}
+
+#menu_mobile {
+    width: 250px !important;
+    height: 0;
+    float: left;
+    margin: 0;
+    padding: 0 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: none;
+    background: #F7D622;
+    overflow-y: none;
+}
+
+#menu_mobile hr {
+    clear: both;
+    border-top: 1px solid #2C3170;
+}
+
+#menu_mobile ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+#menu_mobile ul li {
+    width: 100% !important;
+    float: left;
+    margin: 0 !important;
+    padding: 0;
+    zoom: 1;
+    display: block;
+}
+#menu_mobile ul li.sub a{
+    padding-left: 30px;
+}
+#menu_mobile ul li a {
+    width: 100%;
+    float: left;
+    margin: 0;
+    color: #fff;
+    text-align: left;
+    border-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+}
+
+#menu_mobile ul li a.ativo,
+#menu_mobile ul li a:hover,
+#menu_mobile ul li a:focus,
+#menu_mobile ul li a:active {
+    color: #fff;
+    background: #C5AF84;
+    text-decoration: none;
+}
+
+.menu-mobile-ativo{
+  color: #fff;
+  background: #711c1d;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.ativo-mobile {
+    color: #fff;
+    background: #2E5B8A;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#mask_menu {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 999999;
+    display: none;
+}
+
+
+.slideRight {
+    left: 0;
+}
+
+.slideleft {
+    width: 100%;
+    height: 100%;
+    left: -250px;
+    padding: 0 0;
+    margin: 50px 0 0 0;
+}
+
+#area_menu_mobile {
+    height: 0;
+    position: fixed;
+    width: auto;
+}
+
+#header_mobile {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin: 0;
+    top: 0!important;
+    position: fixed;
+    z-index: 9999999;
+    background: #F7D622;
+    display: none;
+}
+
+#header_mobile .logo-mobile{
+  float: right;
+  margin-top: 8px;
+  margin-right: 15px;
+}
+#header_mobile .logo-mobile:hover{
+  opacity:0.5;
+}

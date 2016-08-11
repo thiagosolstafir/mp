@@ -1,0 +1,26 @@
+body{
+
+}
+*[center] {
+    width: auto;
+    display: table;
+    margin: 0 auto;
+}
+.content-responsive {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  height: auto;
+}
+*[fluid-page]{
+  width: 100%;
+  height: auto;
+  float: left;
+  clear: both;
+}
+*[nopadding]{
+  padding: 0!important;
+}
+*[nomargin]{
+  margin: 0!important;
+}

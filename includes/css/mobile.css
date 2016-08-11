@@ -1,0 +1,6 @@
+
+@media only screen and (max-width: 1023px) {
+  #header_mobile, #bt_menu{
+    display: block;
+  }
+}
