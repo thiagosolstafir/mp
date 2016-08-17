@@ -16,7 +16,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/style.css?<?php echo time(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/menu-mobile.css?<?php echo time(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/mobile.css?<?php echo time(); ?>">
-  <link rel="stylesheet" href="<?php echo $mainFolder; ?>/includes/css/hover.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/hover.css">
 
   <script src="<?php echo $mainFolder; ?>/includes/js/jquery.js" type="text/javascript"></script>
   <script src="<?php echo $mainFolder; ?>/includes/js/jquery.cycle2.js" type="text/javascript"></script>
@@ -32,5 +32,5 @@
 
   <title></title>
 
-  </head>
-  <body>
+</head>
+<body>
