@@ -16,7 +16,9 @@
 </div>
 
 <div class="logo-mobile">
-  <a href="home">  <img src="<?php echo $mainFolder; ?>/includes/imgs/logo-mini.png" alt="" /></a>
+  <a href="home">
+    <img src="<?php echo $mainFolder; ?>/includes/imgs/logo-mini.png" alt="" />
+  </a>
 </div>
 
 </div>
