@@ -25,7 +25,6 @@
   <script src="<?php echo $mainFolder; ?>/includes/js/jquery.mask.js" type="text/javascript"></script>
   <script src="<?php echo $mainFolder; ?>/includes/js/wow.js" type="text/javascript"></script>
   <script src="<?php echo $mainFolder; ?>/includes/js/floating.js" type="text/javascript"></script>
-
   <script src="<?php echo $mainFolder; ?>/includes/js/scripts.js?<?php echo time(); ?>" type="text/javascript"></script>
 
   <script> $.fn.cycle.defaults.autoSelector = '.slideshow'; new WOW().init(); </script>
