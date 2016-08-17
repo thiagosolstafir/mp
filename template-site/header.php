@@ -12,7 +12,6 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/page.css?<?php echo time(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/helper.css?<?php echo time(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/style.css?<?php echo time(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/menu-mobile.css?<?php echo time(); ?>">
