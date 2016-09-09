@@ -107,11 +107,8 @@ $(document).ready(function (e) {
 
   $("#bt_menu").click(function () {
     $(this).toggleClass('open');
-    $("#area_menu_mobile").toggleClass("slideRight", 200);
+    
     if (controle_click == false) {
-      $('#area_menu_mobile').css({
-        'z-index': '9999999'
-      });
       $("#area_menu_mobile").css('left', '0');
       $('#mask_menu').fadeIn(200);
       lock_scroll();
@@ -127,8 +124,9 @@ $(document).ready(function (e) {
   $("#menu_mobile ul li a, #mask_menu").click(function () {
     $("#bt_menu").toggleClass('open');
     $("#bt_menu").removeClass('open');
-    $("#area_menu_mobile").toggleClass("slideRight", 200);
+
     $("#area_menu_mobile").css('left', '-250px');
+
     unlock_scroll()
     $('#mask_menu').fadeOut(200);
     controle_click = false;
@@ -162,7 +160,16 @@ function ajust() {
   h_tela = $(window).height();
   w_tela = $(window).width();
 
+  if(w_tela < 1023){
+    $('body').css("margin-top", 50);
+  }else{
+    $('body').css("margin-top", 0);
+    console.log(123);
+  }
+
+  // pega tamanho do menu mobile
   $("#menu_mobile").css("height", h_tela + "px");
+
 };
 
 function mov_scroll(id) {
@@ -176,8 +183,8 @@ function mov_scroll(id) {
     unlock_scroll();
     controle_click = false;
   }
-
   if (id == 'home') {
+
     $('html, body').animate({
       scrollTop: 0
     }, 1000);
