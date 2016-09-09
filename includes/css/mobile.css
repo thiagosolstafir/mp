@@ -1,3 +1,4 @@
+/* se a resolução for mais que 1024 o mascara do menu some */
 @media (min-width: 1024px){
 	#mask_menu{
 		display: none!important;
