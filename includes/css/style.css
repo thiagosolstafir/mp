@@ -1,5 +1,11 @@
 body {}
 
+.img-responsive{
+    width:auto;
+    max-width:100%;
+    display:block;
+}
+
 .center {
     width: auto;
     display: table;
